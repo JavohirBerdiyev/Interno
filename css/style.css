@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost:wght@400;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Jost", sans-serif; 
+  
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.container {
+  width: 1120px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site_header {
+  padding: 40px 0;
+}
+
+.logo img {
+  width: 34px;
+  height: 34px;
+  margin-right: 10px;
+}
+
+.logo_title {
+  color: #292f36;
+  font-family: "DM Serif Display", serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%; /* 50px */
+}
+
+.nav_item {
+  margin-left: 31px;
+}
+
+.nav_link {
+  color: #292f36;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 125%; /* 25px */
+  text-decoration: none;
+}
+
+.bx-search {
+  font-size: 25px;
+}
+
+.hero {
+  height: 1042px;
+  background-color: #292f36;
+  background-image: url("../images/hero_bg.jpg");
+  background-size: 100% 100%;
+  border-bottom-left-radius: 300px;
+}
+
+.hero_content {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: flex-start;
+}
+
+.hero_child {
+  width: 567px;
+}
+
+.hero_title {
+  color: #292f36;
+  font-family: "DM Serif Display", serif;
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%; /* 106.25px */
+  margin-bottom: 9px;
+}
+
+.hero_text {
+  color: #4d5053;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 150%; /* 33px */
+  letter-spacing: 0.22px;
+  margin-bottom: 21px;
+}
+
+.hero_link {
+  padding: 26px 48px;
+  border-radius: 18px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #292f36;
+  box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
+  text-decoration: none;
+
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 125%; /* 22.5px */
+  letter-spacing: 0.36px;
+}
+
+.bx-right-arrow-alt {
+  color: #cda274;
+  font-size: 25px;
+}
